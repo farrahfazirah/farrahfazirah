@@ -1,0 +1,84 @@
+
+:root {
+    --text: #2B3044;
+    --line: #EE5453;
+    --line-active: #EE5453;
+}
+
+p {
+  font-size: 18px;
+  margin: 0;
+  color: var(--text);
+}
+p a {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+}
+p a svg {
+  width: 76px;
+  height: 40px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 7px) translateZ(0);
+  fill: none;
+  stroke: var(--stroke, var(--line));
+  stroke-linecap: round;
+  stroke-width: 2px;
+  stroke-dasharray: var(--offset, 69px) 278px;
+  stroke-dashoffset: 361px;
+  transition: stroke 0.25s ease var(--stroke-delay, 0s), stroke-dasharray 0.35s;
+}
+p a:hover {
+  --stroke: var(--line-active);
+  --stroke-delay: .1s;
+  --offset: 180px;
+}
+
+
+
+.svg1 {
+            width: 230px;
+            height: 65px;
+            position: absolute;
+            left: 58px;
+            top: -30px;
+            bottom: 0;
+            transform: translate(-50%, 7px) translateZ(0);
+            fill: none;
+            stroke: var(--stroke, var(--line));
+            stroke-linecap: round;
+            stroke-width: 2px;
+            stroke-dasharray: var(--offset, 69px) 278px;
+            stroke-dashoffset: 361px;
+            transition: stroke 0.25s ease var(--stroke-delay, 0s), stroke-dasharray 0.35s;
+        }
+        
+@media (min-width: 576px) {
+    .svg1 {
+            width: 230px;
+            height: 65px;
+            position: relative;
+            left: -17.5%;
+            top: -13px;
+        }
+    }
+
+.svg2 {
+            width: 70px;
+            height: 65px;
+            position: relative;
+            left: -21%;
+            top: -8px;
+        }
+@media (min-width: 576px) {
+    .svg2 {
+            width: 67px;
+            height: 65px;
+            position: relative;
+            left: -24%;
+            top: -8px;
+        }
+    }

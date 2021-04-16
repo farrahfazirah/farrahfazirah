@@ -1,2 +1,2 @@
-
+window.addEventListener("load",(function(){document.querySelector("body").classList.add("loaded")}));var radius=8;TweenMax.staggerFromTo(".blob",4,{cycle:{attr:function(t){var a=90*t;return{transform:"rotate("+a+") translate("+radius+",0.1) rotate("+-a+")"}}}},{cycle:{attr:function(t){var a=90*t+360;return{transform:"rotate("+a+") translate("+radius+",0.1) rotate("+-a+")"}}},ease:Linear.easeNone,repeat:-1});
 //# sourceMappingURL=script.js.map
