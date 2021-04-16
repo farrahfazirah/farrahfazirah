@@ -258,7 +258,7 @@ $('.menu-left a').on('click', function() {
 var didScroll;
 var lastScrollTop = 0;
 var delta = 5;
-var navbarHeight = $('navigation').outerHeight();
+var navbarHeight = $('nav').outerHeight();
 
 $(window).scroll(function(event){
     didScroll = true;
@@ -282,13 +282,13 @@ function hasScrolled() {
     // This is necessary so you never see what is "behind" the navbar.
     if (st > lastScrollTop && st > navbarHeight){
         // Scroll Down
-        $('navigation').removeClass('show-nav').addClass('hide-nav');
+        $('nav').removeClass('show-nav').addClass('hide-nav');
         $('.nav-toggle').removeClass('open');
         $('.menu-left').removeClass('collapse');
     } else {
         // Scroll Up
         if(st + $(window).height() < $(document).height()) {
-            $('navigation').removeClass('hide-nav').addClass('show-nav');
+            $('nav').removeClass('hide-nav').addClass('show-nav');
         }
     }
 
