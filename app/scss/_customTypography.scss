@@ -1,0 +1,57 @@
+.desc {
+	font-size: 30px; 
+	margin-left: 12rem; 
+	margin-right: 12rem;
+	line-height: 45px;
+	text-align: center;
+}
+@media (max-width: 812px) {
+	.desc {
+	font-size: 21px; 
+	margin-left: 2rem; 
+	margin-right: 2rem; 
+	line-height: 28px;
+	text-align: center;
+} }
+
+
+@media (max-width: 812px) {
+	.intro {
+	font-size: 60px;
+	line-height: 58px;
+	text-align: center;
+} }
+
+	.profile-intro {
+	font-size: 50px;
+	line-height: 55px;
+}
+@media (max-width: 812px) {
+	.profile-intro {
+	font-size: 42px;
+	line-height: 42px;
+} }
+
+	.case-studies-p {
+	font-size: 50px;
+	line-height: 55px;
+}
+@media (max-width: 812px) {
+	.case-studies-p {
+	font-size: 42px;
+	line-height: 42px;
+} }
+
+	.case-studies-desc {
+	font-size: 24px;
+	line-height: 1.8rem;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+@media (max-width: 812px) {
+	.case-studies-desc {
+	font-size: 18px;
+	line-height: 1.8rem;
+	margin-left: 5px;
+	margin-right: 5px;
+} }

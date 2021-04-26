@@ -43,13 +43,13 @@ $link-hover-color:      none !default;
 $link-hover-decoration: none !default;
 
 body {
-  overflow-y: scroll;
+  max-width: 100%;
   overflow-x: hidden; /* Hide horizontal scrollbar */
   -webkit-font-smoothing: antialiased;
 }
 
 .blob {
-  position: absolute;
+  position: relative;
   top: 250px;
   left: 0;
   fill:  rgba(7, 104, 159, 0.05);
@@ -57,17 +57,7 @@ body {
   z-index: -1;
   animation: move 60s ease-in-out infinite;
   transform-origin: 50% 50%;
-}
-
-.blob2 {
-  position: absolute;
-  top: 1200px;
-  left: 100px;
-  fill:  rgba(7, 104, 159, 0.05);
-  width: 50vmax;
-  z-index: -1;
-  animation: move 120s ease-in-out infinite;
-  transform-origin: 50% 50%;
+  overflow-x: hidden;
 }
 
 @keyframes move {
@@ -135,7 +125,7 @@ body {
   position:absolute;
   width: 480px;
   margin-top: -145px;
-  margin-left: 340px;
+  margin-left: 740px;
 }
 @media (max-width: 768px) {
 .pimg {
@@ -143,8 +133,10 @@ body {
   position:relative;
   width: 250px;
     margin-top: -130px;
-  margin-left: 0;
+  margin-left: 95px;
 } }
+
+
 
 
 /*------------------------------------*\
@@ -175,7 +167,7 @@ $spacers: map-merge(
 /*------------------------------------*/
 
 $font-family-sans-serif:  'Karla', sans-serif;
-$font-family-serif:       'Signifier', serif;
+$font-family-serif:       'Lora', serif;
 $font-family-base:        $font-family-sans-serif !default;
 
 $font-weight-lighter:         lighter !default;
