@@ -42,7 +42,7 @@ $link-color:            #000 !default;
 $link-hover-color:      none !default;
 $link-hover-decoration: none !default;
 
-body {
+html, body {
   max-width: 100%;
   overflow-x: hidden; /* Hide horizontal scrollbar */
   -webkit-font-smoothing: antialiased;
