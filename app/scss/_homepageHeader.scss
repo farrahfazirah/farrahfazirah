@@ -1,0 +1,15 @@
+/*------------------------------------*\
+    Homepage 
+
+    Section: Header
+\*------------------------------------*/
+
+.main-header {
+  padding-top: 13.5rem;
+  padding-bottom: 0rem;
+}
+@media (max-width: 812px) {
+	.main-header {
+  padding-top: 11rem;
+  padding-bottom: 0rem;
+} }

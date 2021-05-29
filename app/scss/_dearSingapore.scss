@@ -1,0 +1,112 @@
+/*------------------------------------*\
+    #Decentralised Browser
+\*------------------------------------*/
+
+.case-studies {
+	max-width: 660px;
+}
+
+.ds-header {
+  margin-top: -23rem;
+  padding-bottom: 13rem;
+}
+@media (max-width: 812px) {
+  .ds-header {
+  margin-top: 0;
+  padding-bottom: 0rem;
+} }
+
+  .intro-ds {
+  font-size: 28px;
+  line-height: 38px;
+} 
+@media (max-width: 812px) {
+  .intro-ds {
+  font-size: 24px;
+  line-height: 38px;
+  margin-left: 15px;
+  margin-right: 15px;
+} }
+
+  .mg-ds {
+  margin-top: 0px;
+}
+@media (max-width: 812px) {
+  .mg-ds {
+  margin-top: -90px;
+} }
+
+p {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media (max-width: 812px) {
+p {
+  margin-left: 15px;
+  margin-right: 15px;
+} }
+
+.desc2-ds {
+  font-size: 23px;
+}
+@media (max-width: 812px) {
+  .desc2-ds {
+  font-size: 18px;
+  margin-top: 0px;
+} }
+
+.summary-margin {
+  margin-top: 100px;
+}
+@media (max-width: 812px) {
+  .summary-margin {
+  margin-top: 20px;
+} }
+
+
+.ds-img {
+  position: relative;
+  width: 500px;
+  margin-top: -110px;
+  margin-left: 180px;
+}
+@media (max-width: 768px) {
+.ds-img {
+  width: 450px;
+  margin-top: 40px;
+  margin-left: -65px;
+} }
+
+.ds-web-img {
+  position: relative;
+  width: 950px;
+  margin-left: -30px;
+  margin-right: 0;
+  margin-top: -100px;
+}
+@media (max-width: 768px) {
+.ds-web-img {
+  width: 700px;
+  margin-left: -30px;
+  margin-top: -130px;
+} }
+
+.summary-margin-ds {
+  margin-top: 70px;
+}
+@media (max-width: 812px) {
+  .summary-margin-ds {
+  margin-top: 20px;
+} }
+
+.progress-container-ds {
+  width: 100%;
+  height: 15px;
+  background: rgba(24, 65, 79, 0.5);
+}
+
+.progress-bar-ds {
+  height: 15px;
+  background: #18414F;
+  width: 0%;
+}

@@ -5,39 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="icon" href="/img/favicon5.png">
-  <title>Empathy.</title>
+  <title>Empathyin.Design</title>
   <link rel="stylesheet" href="place/style.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
+
+<!--
+    Preloader
+            -->
+
+<div id="loader-wrapper">
+  <div id="loader"></div>
+  <div class="loader-section section-left"></div>
+  <div class="loader-section section-right"></div>
+</div>
 
 
 <!--
     Navbar
             -->
 
-<section class="navigation">
-  <div class="nav-container">
-    <div class="brand">
-      <a href="#!"><img src="/img/logo.png" width="50px"></a>
-    </div>
-    <nav>
-      <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
-      <ul class="nav-list">
-        <li>
-          <a href="#!">Work</a>
-        </li>
-        <li>
-          <a href="#!">About</a>
-        </li>
-        </li>
-        <li>
-          <a href="#!">Resume</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</section>
+<header class="header">
+  <a href="https://empathyin.design" class="logo"><img src="img/logo.png" width="38px"></a>
+  <input class="menu-btn" type="checkbox" id="menu-btn"  />
+  <label class="menu-icon" for="menu-btn" style="margin-top: -12px;"><span class="navicon"></span></label>
+  <ul class="menu">
+    <li><a href="#work">Work</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#careers">Resume</a></li>
+  </ul>
+</header>
 
 <!--
     Main Header
@@ -57,7 +55,7 @@
 </div>
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 text-center" style="margin-top: -640px;">
+      <div class="col-lg-12 text-center" style="margin-top: -580px;">
         <h1 class="intro"><b>Hello, I'm Farrah.</b>
         </h1>      
             <p class="desc">I’m a <b>Product Designer</b> and advocate for <b>empathy</b> in product development and businesses. 🙂
@@ -89,36 +87,34 @@
     Profile
             -->
 <div class="profile">
-<div class="container">
-<div class="row">
-      
-  <div class="col-lg-12">
-    <div data-aos="fade-left" data-aos-offset="100"
-     data-aos-easing="ease-in-sine" data-aos-duration="2000">
-    <img src="img/farrah.png" class="pimg">
+  <div class="container">
+    <div class="row">   
+      <div class="col-lg-12">
+        <div data-aos="fade" data-aos-duration="1000">
+          <img src="img/farrah.png" class="pimg">
+        </div>
+      </div>
+
+
+      <div class="col-lg-6 profile-desc-mg">
+          <h2 class="profile-intro"><b>I design emotional experiences.</b></h2>
+          <p>I designed and coded my first website at 10 years old. I carried on this passion of creating things on the internet — eventually making it my career. 🙃<br>
+
+          <br>
+
+          Growing up, I’ve always been sensitive and attuned to people’s feelings. I see empathy as my defining trait and built it into my work process. I believe <b>empathy is key for good product development.</b>
+
+          <br><br>
+
+          <a href="#" style="font-size: 18px;"><b>VIEW RESUME 
+            <svg viewBox="0 0 70 36" class="svg1">
+              <path d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527" />
+            </svg>
+            </b></a>
+            </p>
+      </div>
+    </div>
   </div>
-  </div>
-
-
-<div class="col-lg-6 mt-5">
-  <h2 class="profile-intro"><b>I design emotional experiences.</b></h2>
-    <p>I designed and coded my first website at 10 years old. I carried on this passion of creating things on the internet — 
-eventually making it my career. 🙃<br>
-<br>
-
-Growing up, I’ve always been sensitive and attuned to people’s feelings. I see empathy as my defining trait and built it into my work process. I believe <b>empathy is key for good product development.</b>
-
-<br><br>
-<a href="#" style="font-size: 18px;"><b>VIEW RESUME 
-  <svg viewBox="0 0 70 36" class="svg1">
-            <path d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527" />
-        </svg>
-      </b></a>
-
-    </p>
-  </div>
-</div>
-</div>
 </div>
 
 <!--
@@ -126,82 +122,100 @@ Growing up, I’ve always been sensitive and attuned to people’s feelings. I s
             -->
 
 <div class="work">
-  <div class="container">
+  <div class="container-work">
     <div class="row">
       <div class="col-lg-6">
-        <h1 class="intro">Case Studies</h1>
-          <p class="case-studies-desc">My work ranges from cryptocurrency & blockchain projects, to national campaigns for non-profit, to quickly building MVP products for startups, and more.
-
-          </p>
-
+        <h2 class="profile-intro mb-5"><b>Case Studies</b></h2>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-lg-6">
-        <div class="pr-5 pl-5 pt-5">
-          <div data-aos="fade-right" data-aos-offset="100"
-              data-aos-easing="ease-in-sine" data-aos-duration="2000">
-                <a href="#"><img src="img/dapp-browser.png" class="img-fluid"></a>
-                <br><br>
-                  <h1 style="font-size: 42px; color: #000;" class="mt-2"><b>Decentralised Browser</b></h1>
-                    <p style="font-size: 24px;">An intuitive and secure browser where users are in control of their data.
-
+        <div class="col-lg-6 mt-5">
+                <a href="empathyin.design/decentralised-browser.html"><img src="img/dapp-browser.png" class="img-fluid"></a>
+                  <h1 style="font-size: 28px; color: #000;" class="intro-db mt-4"><b>Decentralised Browser</b></h1>
+                  <p style="font-size: 21px;">An intuitive and secure browser where users are in control of their data.
                   <br><br>
 
-                      <a href="#" style="font-size: 18px;"><b>VIEW PROJECT
-  <svg viewBox="0 0 70 36" class="svg1">
-            <path d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527" />
-        </svg>
-      </b></a>
+                    <a href="#" style="font-size: 18px;"><b>VIEW PROJECT
+                      <svg viewBox="0 0 70 36" class="svg1">
+                         <path d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527" />
+                      </svg></b></a>
 
-                    </p>
-                      <br>
-          </div>
+        </div>
+
+
+
+<div class="col-lg-6 mt-5">
+    <a href="empathyin.design/dear-singapore.html"><img src="img/open-letter.png" class="img-fluid"></a><br>
+    <h1 style="font-size: 28px; color: #000;" class="intro-db mt-4"><b>Dear Singapore</b></h1>
+    <p style="font-size: 21px;">A platform for people to voice support for nature and the future they envision.<br>
+    <br>
+
+    <a href="#" style="font-size: 18px;"><b>VIEW PROJECT 
+      <svg viewBox="0 0 70 36" class="svg1">
+            <path d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527" />
+      </svg></b></a>
+    </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!--
+    Visual
+            -->
+<div class="visual">
+  <div class="container-visual">
+     <div class="row">
+        <div class="col-lg-12">
+          <h2 class="profile-intro mb-2"><b>Visual</b></h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6 mt-3">
+            <img class="card-img-top" src="https://cdn.dribbble.com/users/2376140/screenshots/6622415/lhl.png" alt="Card image cap">
+        </div>
+
+        <div class="col-lg-6 mt-3">
+            <img class="card-img-top" src="https://cdn.dribbble.com/users/2376140/screenshots/6622421/hc_4x.png?compress=1&resize=1600x1200" alt="Card image cap">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6 mt-3">
+            <img class="card-img-top" src="https://cdn.dribbble.com/users/2376140/screenshots/7434931/media/d6341b6298a743493ab0f5b6ce1769eb.png?compress=1&resize=1600x1200" alt="Card image cap">
+        </div>
+
+        <div class="col-lg-6 mt-3">
+            <img class="card-img-top" src="https://cdn.dribbble.com/users/2376140/screenshots/6621018/alphawallet-ui_4x.png?compress=1&resize=1600x1200" alt="Card image cap">
         </div>
       </div>
 
 
-
-
-<div class="col-lg-6">
-  <div class="p-5">
-     <div data-aos="fade-left" data-aos-offset="300"
-     data-aos-easing="ease-in-sine" data-aos-duration="2000">
-     <a href="">
-    <img src="img/open-letter.png" class="img-fluid"></a><br>
-    <h1 style="font-size: 42px; color: #000;" class="mt-4"><b>Dear Singapore</b></h1>
-    <p style="font-size: 24px;">A platform for people to voice support for nature and the future they envision.
-
-      <br><br>
-
-                      <a href="#" style="font-size: 18px;"><b>VIEW PROJECT 
-  <svg viewBox="0 0 70 36" class="svg1">
-            <path d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527" />
-        </svg>
-      </b></a>
-
-    </p>
-  </div>
-  </div>
-</div>
-
-</div>
 </div>
 </div>
 
+<footer class="footer">
+  <div class="container">
+      <div align="center">
+        <h5 style="display: inline;"><b>Everything Else</b></h5>
+        <a href="https://dribbble.com/farrahfazirah"><p style="display: inline; margin-left: 15px; ">Dribbble</p></a>
+        <a href="https://github.com/farrahfazirah/"><p style="display: inline; margin-left: 15px;">Github</p></a>
+        <a href="https://www.linkedin.com/in/farrahfazirah/"><p style="display: inline; margin-left: 15px;">LinkedIn</p></a>
+        </div>
+      </div>
+</footer>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 <script src="/place/script.js"></script>
-<script>
-    document.getElementById('vid').play();
-</script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="/place/preloader.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
 AOS.init();
 </script>
-<script src="/place/preloader.js"></script>
 </body>
 </html>

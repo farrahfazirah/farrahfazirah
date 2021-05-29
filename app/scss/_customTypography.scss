@@ -1,24 +1,45 @@
+.findings-mg {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media (max-width: 812px) {
+.findings-mg {
+  margin-left: 15px;
+  margin-right: 15px;
+} }
+
+p {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media (max-width: 812px) {
+p {
+  margin-left: 15px;
+  margin-right: 15px;
+} }
+
 .desc {
-	font-size: 30px; 
-	margin-left: 2rem; 
-	margin-right: 2rem;
+	font-size: 30px;
 	line-height: 45px;
 	text-align: center;
 }
 @media (max-width: 812px) {
 	.desc {
-	font-size: 21px; 
-	margin-left: 2rem; 
-	margin-right: 2rem; 
+	font-size: 21px;
 	line-height: 28px;
 	text-align: center;
 } }
 
 
-@media (max-width: 812px) {
 	.intro {
 	font-size: 60px;
 	line-height: 58px;
+	text-align: center;
+}
+@media (max-width: 812px) {
+	.intro {
+	font-size: 48px;
+	line-height: 48px;
 	text-align: center;
 } }
 
@@ -28,8 +49,10 @@
 }
 @media (max-width: 812px) {
 	.profile-intro {
-	font-size: 42px;
+	font-size: 36px;
 	line-height: 42px;
+	margin-left: 15px;
+	margin-right: 15px;
 } }
 
 	.case-studies-p {
