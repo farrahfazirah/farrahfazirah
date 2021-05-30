@@ -1,15 +1,11 @@
-@import "customVariables";
+@import "base";
 @import "customNav";
 @import "customBtn";
 @import "customTypography";
-@import "homepageHeader";
-@import "homepageProfile";
-@import "homepageCaseStudies";
-@import "homepageVisual";
+@import "homepage";
 @import "preloader";
 @import "scribbleLinks";
 @import "decentralisedBrowser";
 @import "projectSummary";
 @import "dearSingapore";
-@import "blob";
 @import "node_modules/bootstrap/scss/bootstrap";

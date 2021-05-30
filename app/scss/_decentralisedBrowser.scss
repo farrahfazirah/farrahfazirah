@@ -7,12 +7,12 @@
 }
 
 .db-header {
-  margin-top: -23rem;
+  padding-top: 7rem;
   padding-bottom: 13rem;
 }
 @media (max-width: 812px) {
 	.db-header {
-  margin-top: 0;
+  padding-top: 3rem;
   padding-bottom: 0rem;
 } }
 
@@ -35,10 +35,8 @@
   line-height: 38px;
   margin-left: 15px;
   margin-right: 15px;
-} 
-  .mg {
-  margin-top: -220px;
-} }
+  } 
+}
 
 p {
   margin-left: 0px;
@@ -48,7 +46,8 @@ p {
 p {
   margin-left: 15px;
   margin-right: 15px;
-} }
+  } 
+}
 
 .desc2 {
   font-size: 23px;
@@ -56,8 +55,8 @@ p {
 @media (max-width: 812px) {
   .desc2 {
   font-size: 21px;
-  margin-top: -130px;
-} }
+  } 
+}
 
 .summary-margin {
   margin-top: 100px;
@@ -65,10 +64,12 @@ p {
 @media (max-width: 812px) {
   .summary-margin {
   margin-top: 20px;
-} }
+  } 
+}
 
 
 .progress-container {
+  position: absolute;
   width: 100%;
   height: 15px;
   background: rgba(4, 171, 222, 0.5);
@@ -89,4 +90,5 @@ p {
   .read-next {
   padding-top: 3rem;
   padding-bottom: 0rem;
-} }
+  } 
+}

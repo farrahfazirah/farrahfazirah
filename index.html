@@ -3,9 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="icon" href="/img/favicon5.png">
   <title>Empathyin.Design</title>
+
+<!--
+     *******************************************************************************
+
+       empathyin.design by Farrah Fazirah
+       
+       O hai there, thanks for viewing my source code. 
+       Welcome to empathyin.design, my main presence and playground online.
+
+     *******************************************************************************
+-->
+
+  <link rel="icon" href="/img/favicon5.png">
   <link rel="stylesheet" href="place/style.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
@@ -26,41 +37,45 @@
     Navbar
             -->
 
-<header class="header">
-  <a href="https://empathyin.design" class="logo"><img src="img/logo.png" width="38px"></a>
-  <input class="menu-btn" type="checkbox" id="menu-btn"  />
-  <label class="menu-icon" for="menu-btn" style="margin-top: -12px;"><span class="navicon"></span></label>
-  <ul class="menu">
-    <li><a href="#work">Work</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="img/resume.pdf">Resume</a></li>
-  </ul>
-</header>
+<section class="navigation">
+  <div class="nav-container">
+    <div class="brand">
+      <a href="https://empathyin.design"><img src="img/logo.png" width="38px"></a>
+    </div>
+    <nav>
+      <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+      <ul class="nav-list">
+        <li>
+          <a href="empathyin.design/#work">Work</a>
+        </li>
+        <li>
+          <a href="empathyin.design/#about">About</a>
+        </li>
+        <li>
+          <a href="img/resume.pdf">Resume</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</section>
+
+<div class="circle">
+  </div>
 
 <!--
     Main Header
             -->
 
 <div class="main-header">
-    <div class="blob">
-    <svg width="516" height="601" viewBox="0 0 516 601" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M456.944 532.299C497.47 477.687 498.65 399.561 506.519 327.124C513.995 255.066 527.373 188.318 497.077 154.185C466.781 120.052 392.418 118.156 322.776 86.2988C253.135 54.0624 188.215 -8.51421 146.509 0.967099C104.409 10.4484 84.7366 92.3669 55.6209 159.495C26.5053 226.622 -12.8401 279.717 4.07845 314.609C20.6035 349.5 93.3926 366.566 144.935 419.662C196.084 472.757 226.38 561.502 281.07 590.325C336.154 618.769 416.025 587.291 456.944 532.299Z" fill="url(#paint0_radial)"/>
-      <defs>
-        <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(168.843 372.032) rotate(-116.877) scale(291.851 250.589)">
-          <stop stop-color="#EE5453" stop-opacity="0.25"/>
-          <stop offset="1" stop-color="#7898CE" stop-opacity="0.05"/>
-        </radialGradient>
-      </defs>
-    </svg>
-</div>
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 text-center" style="margin-top: -580px;">
+      <div class="col-lg-12 text-center">
         <h1 class="intro"><b>Hello, I'm Farrah.</b>
         </h1>      
             <p class="desc">I’m a <b>Product Designer</b> and advocate for <b>empathy</b> in product development and businesses. 🙂
             </p>
           <div align="center">
+            <a href="mailto:hi@empathyin.design">
                 <button class="colorful-button dark mt-5">
                   <div class="wrapper">
                     <span>&nbsp &nbsp Get in touch! &nbsp &nbsp</span>
@@ -78,6 +93,7 @@
                     <div class="circle circle-1"></div>
                   </div> 
                 </button>
+            </a>
         </div>
       </div>
     </div>
@@ -88,17 +104,13 @@
             -->
 
 <div class="profile">
-  <div class="container">
+  <div class="container-large">
     <div class="row">   
-      <div class="col-lg-12">
-        <div data-aos="fade" data-aos-duration="1000">
-          <img src="img/farrah.png" class="pimg">
-        </div>
-      </div>
-
-
-      <div class="col-lg-6 profile-desc-mg" id="about">
-          <h2 class="profile-intro"><b>I design emotional experiences.</b></h2>
+        <div class="col-lg-6 mt-5">
+          <img src="img/farrah.png" class="img-fluid">
+        </div>  
+        <div class="col-lg-6 mt-5" id="about">
+          <h2 class="intro-db"><b>I design emotional experiences.</b></h2>
           <p>I designed and coded my first website at 10 years old. I carried on this passion of creating things on the internet — eventually making it my career. 🙃<br>
 
           <br>
@@ -107,17 +119,17 @@
 
           <br><br>
 
-          <a href="#" style="font-size: 18px;"><b>VIEW RESUME 
+          <a href="img/resume.pdf" style="font-size: 18px;"><b>VIEW RESUME 
             <svg viewBox="0 0 70 36" class="svg1">
               <path d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527" />
             </svg>
             </b></a>
             </p>
-      </div>
+        </div>
     </div>
   </div>
 </div>
-</div>
+
 
 <!--
     Work
@@ -127,7 +139,7 @@
   <div class="container-work">
     <div class="row">
       <div class="col-lg-6">
-        <h2 class="profile-intro mb-5"><b>Case Studies</b></h2>
+        <h2 class="profile-intro"><b>Case Studies</b></h2>
       </div>
     </div>
 
@@ -136,12 +148,7 @@
                 <a href="https://empathyin.design/decentralised-browser.html"><img src="img/dapp-browser.png" class="img-fluid"></a>
                   <h1 style="font-size: 28px; color: #000;" class="intro-db mt-4"><b>Decentralised Browser</b></h1>
                   <p style="font-size: 21px;">An intuitive and secure browser where users are in control of their data.
-                  <br><br>
 
-                    <a href="https://empathyin.design/decentralised-browser.html" style="font-size: 18px;"><b>VIEW PROJECT
-                      <svg viewBox="0 0 70 36" class="svg1">
-                         <path d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527" />
-                      </svg></b></a>
 
         </div>
 
@@ -152,11 +159,6 @@
     <h1 style="font-size: 28px; color: #000;" class="intro-db mt-4"><b>Dear Singapore</b></h1>
     <p style="font-size: 21px;">A platform for people to voice support for nature and the future they envision.<br>
     <br>
-
-    <a href="https://empathyin.design/dear-singapore.html" style="font-size: 18px;"><b>VIEW PROJECT 
-      <svg viewBox="0 0 70 36" class="svg1">
-            <path d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527" />
-      </svg></b></a>
     </p>
 </div>
 </div>

@@ -1,0 +1,120 @@
+/*------------------------------------*\
+    About the File
+\*------------------------------------*/
+/*
+	Author 						Farrah Fazirah
+	Tools 						Sublime Text
+	Approaches 					OOCSS, BEM
+	Site Generated with			BrowserSync, Gulp
+ */
+
+/*------------------------------------*\
+    Base
+\*------------------------------------*/
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  -webkit-font-smoothing: antialiased;
+}
+
+$body-bg:               #F7FBFC !default;
+$body-color:            #000 !default;
+$link-color:            #000 !default;
+$link-hover-color:      none !default;
+$link-hover-decoration: none !default;
+
+/*------------------------------------*\
+    Main Typography
+\*------------------------------------*/
+
+@font-face {
+  font-family: 'Karla' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  src: local('Karla Regular'), local('Karla-Regular'), url(app/fonts/Karla-Regular.ttf) format('ttf') !important;
+}
+
+@font-face {
+  font-family: 'Karla' !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+  src: local('Karla Italic'), local('Karla-Italic'), url(app/fonts/karla/Karla-Italic.ttf) format('ttf') !important;
+}
+
+@font-face {
+  font-family: 'Karla' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  src: local('Karla Semibold'), local('Karla-Semibold'), url(app/fonts/karla/Karla-Semibold.ttf) format('ttf') !important;
+}
+
+@font-face {
+  font-family: 'Karla' !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  src: local('Karla Bold'), local('Karla-Bold'), url(app/fonts/karla/Karla-Bold.ttf) format('ttf') !important;
+}
+
+@font-face {
+  font-family: 'Karla' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  src: local('Karla ExtraBold'), local('Karla-ExtraBold'), url(app/fonts/karla/Karla-ExtraBold.ttf) format('ttf') !important;
+}
+
+@font-face {
+  font-family: 'Lora' !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  src: local('Lora Bold'), local('Lora-Bold'), url(app/fonts/lora/Lora-Bold.ttf) format('ttf') !important;
+}
+
+
+$font-family-sans-serif:  'Karla', sans-serif;
+$font-family-serif:       'Lora', serif;
+$font-family-base:        $font-family-sans-serif !default;
+
+$font-weight-lighter:         lighter !default;
+$font-weight-light:           300 !default;
+$font-weight-normal:          400 !default;
+$font-weight-bold:            700 !default;
+$font-weight-bolder:          bolder !default;
+
+$font-weight-base:            $font-weight-normal !default;
+$line-height-base:            1.5 !default;
+$letter-spacing-base:         5rem !default;
+
+$font-size-base:          1rem;
+
+$h1-font-size:            $font-size-base * 4.5 !default;
+$h2-font-size:            $font-size-base * 2 !default;
+$h3-font-size:            $font-size-base * 1.75 !default;
+$h4-font-size:            $font-size-base * 1.5 !default;
+$h5-font-size:            $font-size-base * 1.25 !default;
+$h6-font-size:            $font-size-base !default;
+
+$headings-font-family:        $font-family-serif !default;
+$headings-font-weight:        500 !default;
+$headings-line-height:        1.2 !default;
+$headings-color:              #000 !default;
+
+
+/*------------------------------------*\
+    Grid Containers
+\*------------------------------------*/
+
+$container-max-widths: (
+  sm: 240px,
+  md: 320px,
+  lg: 460px,
+  xl: 780px
+) !default;
+
+.container-large {
+  max-width: 960px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
