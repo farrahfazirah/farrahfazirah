@@ -5,15 +5,15 @@
 .colorful-button {
     &.dark {
         --delay: .35s;
-        --c-color-1: #{rgba(#F57170, .3)};
-        --c-color-2: #BD302F;
-        --c-color-3: #{rgba(#E55E5D, .3)};
-        --c-color-4: #{rgba(#BD302F, .4)};
-        --c-shadow: #{rgba(#BD302F, .4)};
-        --c-shadow-inset-top: #{rgba(#F57170, .6)};
-        --c-shadow-inset-bottom: #{rgba(#F57170, .4)};
-        --c-radial-inner: #F57170;
-        --c-radial-outer: #F57170;
+        --c-color-1: #{rgba(#ff5722, .3)};
+        --c-color-2: #AC2200;
+        --c-color-3: #{rgba(#ff5722, .3)};
+        --c-color-4: #{rgba(#AC2200, .4)};
+        --c-shadow: #{rgba(#AC2200, .4)};
+        --c-shadow-inset-top: #{rgba(#ff5722, .6)};
+        --c-shadow-inset-bottom: #{rgba(#ff5722, .4)};
+        --c-radial-inner: #ff5722;
+        --c-radial-outer: #ff5722;
     }
 }
 

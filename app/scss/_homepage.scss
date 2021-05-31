@@ -32,30 +32,6 @@
 } }
 
 
-.pimg {
-  position:absolute;
-  width: 400px;
-  margin-top: -100px;
-  margin-left: 80px;
-}
-@media (max-width: 768px) {
-.pimg {
-  position:relative;
-  width: 250px;
-  margin-top: -190px;
-  margin-left: 0px;
-	} 
-}
-
-
-.profile-desc-mg {
-  margin-top: -150px;
-}
-@media (max-width: 768px) {
-  .profile-desc-mg {
-margin-top: 50px;
-} }
-
 
 /*------------------------------------*\
     Homepage 

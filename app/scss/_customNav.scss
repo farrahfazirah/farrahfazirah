@@ -1,5 +1,5 @@
 // Navigation Variables
-$content-width: 1000px;
+$content-width: 960px;
 $breakpoint: 799px;
 $nav-height: 90px;
 $nav-background: #F7FBFC;
@@ -28,7 +28,7 @@ $nav-font-color: #000000;
   }
 @media only screen and (max-width: 798px) {
   .brand {
-    padding-top: 13.5px;
+    padding-top: 16px;
   }
 }
 
@@ -50,7 +50,8 @@ nav {
       float: left;
       position: relative;
       a,
-      a:visited {
+      a:visited,
+      a:focus {
         display: block;
         padding: 0 20px;
         line-height: $nav-height;
@@ -58,7 +59,7 @@ nav {
         color: $nav-font-color;
         text-decoration: none;
         &:hover {
-          background: transparent;
+          background: $nav-background;
           color: $nav-font-color;
         }
         &:not(:only-child):after {
@@ -79,7 +80,9 @@ nav {
 
 // Dropdown list binds to JS toggle event
 .nav-dropdown {
-  position: static;
+  position: absolute;
+  display: none;
+  border:none;
 }
 
 /* Mobile navigation */
@@ -90,7 +93,6 @@ nav {
   position: absolute;
   top: 0;
   right: 0;
-  background: $nav-background;
   height: $nav-height;
   width: $nav-height;
 }
@@ -101,20 +103,32 @@ nav {
   }
   nav {
    width: 100%;
-    padding: $nav-height 0 15px;
+   padding: 30px 25px 25px 25px;
     ul {
       display: none;
+        box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.0034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.0048),
+  0 2.5px 10px rgba(0, 0, 0, 0.006),
+  0 2.3px 17.9px rgba(0, 0, 0, 0.0072),
+  0 1.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 1px 80px rgba(0, 0, 0, 0.012)
+;
       li {
         float: none;
-        a {
-          padding: 15px;
+        a, a:visited {
+          padding: 25px;
           line-height: 20px;
+          background: #fff;
         }
         ul li a {
           padding-left: 30px;
         }
       }
     }
+  }
+  .margin-nav {
+    padding-top: 70px;
   }
   .nav-dropdown {
     position: static;
@@ -127,29 +141,31 @@ nav {
 }
 #nav-toggle {
   position: relative;
-  left: 18px;
+  left: 20px;
   top: 45px;
   cursor: pointer;
-  height: 40px;
-  width: 40px;
-  background-color: #7898CE;
-  border-radius: 100%;
+  height: 37px;
+  width: 35px;
+  background-color: #f5e6ca;
+  border-radius: 50px 15px 50px 15px;
   display: block;
   padding-top: 19px;
   padding-left: 8px;
   span,
   span:before,
   span:after {
+    z-index: 1;
     cursor: pointer;
     border-radius: 1px;
     height: 2px;
-    width: 22px;
+    width: 15px;
     color: white;
-    background: $nav-font-color;
+    background: #272727;
     position: absolute;
     display: block;
     content: '';
     transition: all 300ms ease-in-out;
+
   }
   span:before {
     top: -6px;
