@@ -7,8 +7,8 @@
 }
 
 .ds-header {
-  margin-top: -23rem;
-  padding-bottom: 13rem;
+  margin-top: 7rem;
+  padding-bottom: 0rem;
 }
 @media (max-width: 812px) {
   .ds-header {
@@ -67,8 +67,8 @@ p {
 .ds-img {
   position: relative;
   width: 500px;
-  margin-top: -110px;
-  margin-left: 180px;
+  margin-top: -50px;
+  margin-left: 160px;
 }
 @media (max-width: 768px) {
 .ds-img {
@@ -99,14 +99,3 @@ p {
   margin-top: 20px;
 } }
 
-.progress-container-ds {
-  width: 100%;
-  height: 15px;
-  background: rgba(24, 65, 79, 0.5);
-}
-
-.progress-bar-ds {
-  height: 15px;
-  background: #18414F;
-  width: 0%;
-}

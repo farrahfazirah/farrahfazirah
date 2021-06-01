@@ -103,7 +103,7 @@ nav {
   }
   nav {
    width: 100%;
-   padding: 30px 25px 25px 25px;
+   padding: 0px 100px 25px 0px;
     ul {
       display: none;
         box-shadow:
@@ -117,7 +117,10 @@ nav {
       li {
         float: none;
         a, a:visited {
-          padding: 25px;
+          padding-top: 40px;
+          padding-right: 25px;
+          padding-left: 25px;
+          padding-bottom: 40px;
           line-height: 20px;
           background: #fff;
         }
@@ -146,7 +149,7 @@ nav {
   cursor: pointer;
   height: 37px;
   width: 35px;
-  background-color: #f5e6ca;
+  background-color: #FFC947;
   border-radius: 50px 15px 50px 15px;
   display: block;
   padding-top: 19px;
@@ -160,7 +163,7 @@ nav {
     height: 2px;
     width: 15px;
     color: white;
-    background: #272727;
+    background: #0A1931;
     position: absolute;
     display: block;
     content: '';
