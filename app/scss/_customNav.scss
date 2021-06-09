@@ -2,16 +2,16 @@
 $content-width: 960px;
 $breakpoint: 799px;
 $nav-height: 90px;
-$nav-background: #F7FBFC;
+$nav-background: #fff;
 $nav-font-color: #000000;
 
 // Outer navigation wrapper
 .navigation {
   height: $nav-height;
   background: $nav-background;
+  border-bottom: 1px dashed black;
   font-size: 1.2rem;
   z-index: 1;
-  padding-top: 15px;
 }
 @media only screen and (max-width: 798px) {
 .navigation {
@@ -28,7 +28,7 @@ $nav-font-color: #000000;
   }
 @media only screen and (max-width: 798px) {
   .brand {
-    padding-top: 16px;
+    padding-top: 0px;
   }
 }
 
@@ -55,7 +55,7 @@ nav {
         display: block;
         padding: 0 20px;
         line-height: $nav-height;
-        background: $nav-background;
+        background: transparent;
         color: $nav-font-color;
         text-decoration: none;
         &:hover {
@@ -82,8 +82,9 @@ nav {
 .nav-dropdown {
   position: absolute;
   display: none;
-  border:none;
+  z-index: 1;
 }
+
 
 /* Mobile navigation */
 
@@ -104,6 +105,7 @@ nav {
   nav {
    width: 100%;
    padding: 0px 100px 25px 0px;
+   margin-bottom: 20px;
     ul {
       display: none;
         box-shadow:
@@ -144,16 +146,16 @@ nav {
 }
 #nav-toggle {
   position: relative;
-  left: 20px;
-  top: 45px;
+  left: 25px;
+  top: 32px;
   cursor: pointer;
   height: 37px;
   width: 35px;
-  background-color: #FFC947;
-  border-radius: 50px 15px 50px 15px;
+  background-color: #7898CE;
+  border-radius: 15px 15px 15px 15px;
   display: block;
   padding-top: 19px;
-  padding-left: 8px;
+  padding-left: 7px;
   span,
   span:before,
   span:after {
@@ -161,9 +163,9 @@ nav {
     cursor: pointer;
     border-radius: 1px;
     height: 2px;
-    width: 15px;
+    width: 20px;
     color: white;
-    background: #0A1931;
+    background: #fff;
     position: absolute;
     display: block;
     content: '';

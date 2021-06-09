@@ -7,7 +7,7 @@
 }
 
 .ds-header {
-  margin-top: 7rem;
+  margin-top: 6rem;
   padding-bottom: 0rem;
 }
 @media (max-width: 812px) {
@@ -67,14 +67,14 @@ p {
 .ds-img {
   position: relative;
   width: 500px;
-  margin-top: -50px;
-  margin-left: 160px;
+  margin-top: -96px;
+  margin-left: 158px;
 }
 @media (max-width: 768px) {
 .ds-img {
   width: 450px;
   margin-top: 40px;
-  margin-left: -65px;
+  margin-left: -68px;
 } }
 
 .ds-web-img {
@@ -82,13 +82,59 @@ p {
   width: 950px;
   margin-left: -30px;
   margin-right: 0;
-  margin-top: -100px;
+  margin-top: -180px;
 }
 @media (max-width: 768px) {
 .ds-web-img {
   width: 700px;
   margin-left: -30px;
   margin-top: -130px;
+} }
+
+
+.letterphone-img {
+  position: relative;
+  width: 250px;
+  margin-top: -1350px;
+  margin-left: 720px;
+}
+@media (max-width: 768px) {
+.letterphone-img {
+  display: none;
+} }
+
+.letterdesktop-img {
+  position: relative;
+  width: 940px;
+  margin-top: 0px;
+  margin-left: -100px;
+}
+@media (max-width: 768px) {
+.letterdesktop-img {
+  width: 530px;
+  margin-top: 0px;
+  margin-left: -75px;
+} }
+
+.letterdesktop-img2 {
+  position: relative;
+  width: 800px;
+  margin-top: -140px;
+  margin-left: 0px;
+}
+@media (max-width: 768px) {
+.letterdesktop-img2 {
+  width: 730px;
+  margin-top: -40px;
+  margin-left: -82px;
+} }
+
+.margin-btn {
+  margin-top: -80px;
+}
+@media (max-width: 812px) {
+  .margin-btn {
+  margin-top: -40px;
 } }
 
 .summary-margin-ds {
@@ -99,3 +145,65 @@ p {
   margin-top: 20px;
 } }
 
+/**
+ * Tooltip Styles
+ */
+
+/* Add this attribute to the element that needs a tooltip */
+[data-tooltip] {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+/* Hide the tooltip content by default */
+[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Position tooltip above the element */
+[data-tooltip]:before {
+  position: absolute;
+  bottom: 150%;
+  left: 50%;
+  margin-bottom: 5px;
+  margin-left: -80px;
+  padding: 15px;
+  width: 260px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #272727;
+  background-color: #272727;
+  color: #fff;
+  content: attr(data-tooltip);
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-tooltip]:after {
+  position: absolute;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -5px;
+  width: 0;
+  border-top: 5px solid #272727;
+  border-top: 5px solid #272727;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  content: " ";
+  font-size: 0;
+  line-height: 0;
+}
+
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  opacity: 1;
+}

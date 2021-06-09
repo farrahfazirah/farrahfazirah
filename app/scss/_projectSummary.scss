@@ -1,21 +1,31 @@
-.project-summary {
-  background: #0a1931;
+.project-summary1 {
+  background: #04ABDE;
   padding-bottom: 3rem;
   border-radius: 50px 0 0 0;
 }
 @media (max-width: 812px) {
-	.project-summary {
+	.project-summary1 {
   margin-top: 2rem;
 } }
 
-.project-summary .head-1 {
+.project-summary2 {
+  background: #18414F;
+  padding-bottom: 3rem;
+  border-radius: 50px 0 0 0;
+}
+@media (max-width: 812px) {
+  .project-summary2 {
+  margin-top: 2rem;
+} }
+
+.head-1 {
   color: #FFF;
   margin-top: 2rem;
   font-size: 42px;
   font-weight: 700;
 }
 @media (max-width: 812px) {
-.project-summary .head-1 {
+.head-1 {
   font-size: 36px;
   margin-top: 0;
   font-weight: 700;
@@ -23,31 +33,31 @@
   margin-right: 15px;
 } }
 
-.project-summary .head-2 {
+.head-2 {
   color: rgba(255, 255, 255, 0.5);
   font-weight: 700;
  }
  @media (max-width: 812px) {
-.project-summary .head-2 {
+.head-2 {
   margin-left: 15px;
   margin-right: 15px;
  } }
 
-.project-summary .small-desc {
+.small-desc {
   color: #FFF;
   font-size: 24px;
  }
  @media (max-width: 812px) {
-.project-summary .small-desc {
+.small-desc {
   font-size: 21px;
  }}
 
- .project-summary .id {
+.id {
   color: #FFF;
   text-indent: 80px;
  }
  @media (max-width: 812px) {
-.project-summary .id {
+.id {
  }}
 
 .ps-desc {
@@ -76,57 +86,4 @@
   margin-left: -15px;
 } }
 
-/** DEAR SINGAPORE **/
 
-.project-summary-ds {
-  background: #18414F;
-  padding-bottom: 3rem;
-  margin-top: -18rem;
-  border-radius: 50px 0 0 0;
-  z-index: 0;
-  position: relative;
-}
-@media (max-width: 812px) {
-  .project-summary-ds {
-  margin-top: 2rem;
-} }
-
-.project-summary-ds .head-1 {
-  color: #FFF;
-  font-size: 42px;
-  font-weight: 700;
-}
-@media (max-width: 812px) {
-.project-summary-ds .head-1 {
-  font-size: 36px;
-  font-weight: 700;
-  margin-left: 15px;
-  margin-right: 15px;
-} }
-
-.project-summary-ds .head-2 {
-  color: rgba(255, 255, 255, 0.5);
-  font-weight: 700;
- }
- @media (max-width: 812px) {
-.project-summary-ds .head-2 {
-  margin-left: 15px;
-  margin-right: 15px;
- } }
-
-.project-summary-ds .small-desc {
-  color: #FFF;
-  font-size: 24px;
- }
- @media (max-width: 812px) {
-.project-summary-ds .small-desc {
-  font-size: 21px;
- }}
-
- .project-summary-ds .id {
-  color: #FFF;
-  text-indent: 80px;
- }
- @media (max-width: 812px) {
-.project-summary-ds .id {
- }}

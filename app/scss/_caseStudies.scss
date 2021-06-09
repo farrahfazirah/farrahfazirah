@@ -1,12 +1,27 @@
 .progresscontainer {
   position: absolute;
   width: 100%;
-  height: 10px;
-  background: #FFC947;
+  height: 12px;
+  background: #d1d8e0;
 }
 
 .progressbar {
-  height: 10px;
-  background: #E19F00;
+  height: 12px;
+  background: #7898CE;
   width: 0%;
+}
+
+
+
+.read-next {
+  border-top: 1px dashed black;
+  background-color: #FFF;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+@media (max-width: 812px) {
+  .read-next {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  } 
 }
